@@ -405,7 +405,9 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+        url('./images/bg2.jpg');
+         /* background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
+        url('https://imgs.search.brave.com/5agsQ6rpslkFBTc-Jxgy-nZRdyZhimB4i3QFkKsi1mQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/ZGFyay1iYWNrZ3Jv/dW5kLXdpdGgtZHlu/YW1pYy1zaGFwZXNf/MjMtMjE0ODg2NTE5/Mi5qcGc_c2VtdD1h/aXNfaHlicmlkJnc9/NzQw'); */
     height: 100vh;
     background-size: cover;
     background-position: center;
