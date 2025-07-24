@@ -1,18 +1,4 @@
-<!-- 
-  Hello 😊.
 
-  This template is designed and developed by Nisar Hassan Naqvi
-  for anyone to use for free or customize the way they like.
-
-  Github Repo: https://github.com/nisarhassan12/portfolio-template/
-  My Website: https://nisar.dev
-
-  For business & inquires, contact me => syednisarhassan12@gmail.com
--->
-
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
--->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,12 +10,14 @@
 
   <!-- Put your site title here -->
   <title>
-    Syed Ali Hussnain | A Web Developer based in Lahore, Pakistan.
+    Pranav Kulkarni | A Web Developer.
   </title>
 
   <meta name="description" content="Add small description of yourslef.">
   <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <meta name="keywords" content="React,CSS,JavaScript,Project,SpringBoot,LeetCode,Developer" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
   <link rel="stylesheet" href="index.css" />
 </head>
 
@@ -41,10 +29,10 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item"><a href="#row" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
           <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
+            <a href="#work" class="nav__link">Project</a>
           </li>
           <li class="nav__item">
             <a href="#contact" class="nav__link">Contact</a>
@@ -56,10 +44,11 @@
       <div class="header__text">
         <h1 class="heading-primary">
           <!-- Replace the following name with your name -->
-          <span>Syed Ali Hussnain</span>
+          <span>Pranav Kulkarni</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Lahore, Pakistan.</p>
+        <p>A passionate Full Stack Developer from Solapur. Specializing in modern web technologies and creating innovative digital solutions.
+</p>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
       </div>
     </div>
@@ -67,164 +56,274 @@
 
   <main role="main">
 
+  <!-- ***** About ***** -->
+<section class="about" id="about">
+        <div class="row">
+             <h2>About Me</h2>
+            <div class="about__content">
+                <div class="personal-info">
+                    <h3>Personal Information</h3>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <span class="info-label">Full Name</span>
+                            <span class="info-value">Pranav Anand Kulkarni</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Location</span>
+                            <span class="info-value">Solapur, Maharashtra</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email</span>
+                            <span class="info-value">pranavkulkarni581@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Phone</span>
+                            <span class="info-value">+91 9021380021</span>
+                        </div>
+                    </div>
+                    <button class="resume-btn" onclick="downloadResume()">
+                        <svg fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                        </svg>
+                        My Resume
+                    </button>
+                </div>
+                
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="education-timeline">
+                        <div class="education-item">
+                            <div class="education-degree">Bachelor of Information Technology (SY)</div>
+                            <div class="education-institution">Walchand Collage of Engineering ,Sangli.</div>
+                            <div class="education-year">2024 - 2027</div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-degree">Diploma in Computer Technology</div>
+                            <div class="education-institution">Government Polytechnic , Solapur.</div>
+                            <div class="education-year">2021-2024</div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-degree">SSC</div>
+                            <div class="education-institution">Sulakhe High School, Barshi.</div>
+                            <div class="education-year">2020 - 2021</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- ***** Skills ***** -->
+ <section class="client" id="clients">
+  <div class="row">
+    <h2>My Skills</h2>
+
+    <div class="container about active" id="about">
+      <div class="about-container">
+
+        <!-- Languages Section -->
+        <div class="skills-section" id="languages">
+          <h3 class="h3-skills">Languages</h3>
+          <div class="underline"></div>
+          <div class="skills-grid">
+            <i class="devicon-java-plain colored" title="Java"></i>
+            <i class="devicon-html5-plain colored" title="HTML5"></i>
+            <i class="devicon-css3-plain colored" title="CSS3"></i>
+            <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+            <i class="devicon-react-original colored" title="React"></i>
+            <i class="devicon-python-plain colored" title="Python"></i>
+            <i class="devicon-c-plain colored" title="C"></i>
+            <i class="devicon-php-plain colored" title="PHP"></i>
+          </div>
+        </div>
+
+        <!-- Databases Section -->
+        <div class="skills-section" id="databases">
+          <h3 class="h3-skills">Databases</h3>
+          <div class="underline"></div>
+          <div class="skills-grid">
+            <i class="devicon-mysql-plain-wordmark colored" title="MySQL"></i>
+            <i class="devicon-firebase-plain colored" title="Firebase"></i>
+            <i class="devicon-mongodb-plain colored" title="MongoDB"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+  </div>
+</section>
+
     <!-- ***** Work ***** -->
 
     <section class="work" id="work">
       <div class="row">
-        <h2>My Work</h2>
+        <h2>My Project</h2>
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Portfolio Template</h3>
+              <h3>MindFlow – A Journal App</h3>
               <p>
-                A free Open Source Portfolio for anyone to use for free.
+                A full-stack journal platform that empowers users to journal with AI assistance and personalization.
               </p>
               <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
+                <li>ReactJS</li>
+                <li>Tailwind CSS</li>
+                <li>SpringBoot</li>
+                <li>MongoDB</li>
+              
               </ul>
 
               <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
+                <a href="https://github.com/PranavKulkarni581/MindFlow-A_Journal_App" target="_blank" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                <a href="https://github.com/PranavKulkarni581/MindFlow-A_Journal_App" title="View Source Code" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+              <img src="./images/image12.png" class="work__image" alt="Project 1" />
             </div>
           </div>
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Calculator</h3>
+              <h3>Credify – Certificate Management Android App</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+               An Android application for students to upload and manage academic certificates digitally. Supports secure login, image
+uploads, and real-time data sync.
               </p>
               <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
+                <li>Java</li>
+                <li>XML</li>
+                <li>Firebase</li>
                 <li>MongoDB</li>
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
+                <a href="https://github.com/tanvidiwan05/miniproject" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="#">
+                <a href="https://github.com/tanvidiwan05/miniproject">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+              <img src="./images/image13.png" class="work__image" alt="Project 1"  />
             </div>
           </div>
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Notificator</h3>
+              <h3>The Planning Paradise - Event Management App</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+               Designed Implemented features for efficient event booking, catering ,photography & videography, venues and decorator
               </p>
               <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>Tailwind CSS</li>
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
+                <a href="https://github.com/PranavKulkarni581/Event-Management-App" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="#">
+                <a href="https://github.com/PranavKulkarni581/Event-Management-App">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+              <img src="./images/image.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Portfolio - A Personal Portfolio</h3>
+              <p>
+             A simple and modern portfolio website to show my projects, skills, and contact info with smooth animations and mobile-friendly design. </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/PranavKulkarni581/Event-Management-App" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/PranavKulkarni581/Event-Management-App">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/image14.png" class="work__image" alt="Project 3" style="border: 1px solid white;;"/>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- ***** Clients ***** -->
-
-    <section class="client" id="clients">
-      <div class="row">
-        <h2>Clients</h2>
-        <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
-        </div>
-      </div>
-    </section>
-
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
-          </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
+   
+  
   </main>
 
   <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact__header">
+      <h2 class="row">Get in Touch</h2>
+      <!-- <p class="contact__subtitle">Let's create something amazing together</p> -->
+    </div>
+    
+    <div class="contact__content">
       <div class="contact__info">
-        <p>
-          Are you looking for a fast-performing and user-friendly website to
-          represent your product or business? or looking for any kind of
-          consultation? or want to ask questions? or have some advice for me
-          or just want to say "Hi 👋" in any case feel free to Let me know. I
-          will do my best to respond back. 😊 The quickest way to reach out to
-          me is via an email.
-        </p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
+        <h3>Let's Connect</h3>
+        <p class="contact__description">
+      Have a project idea, need help, or just want to say "Hi 👋"? I’m always happy to connect. Feel free to reach out — I’ll get back to you as soon as I can! 😊 </p>
+        
+        <a href="mailto:you@example.com" class="btn">pranavkulkarni581@gmail.com</a>
+      </div>
+      
+      <div class="contact__form-container">
+        <form class="contact__form" id="contactForm"  action="https://formspree.io/f/xqalpewy" method="POST">
+          <div class="form__group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+          </div>
+          
+          <div class="form__group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+          </div>
+          
+          <div class="form__group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+          </div>
+          
+          <div class="form__group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell me more about your project..." required></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn--pink" style="margin-left: 145px; height: 50px; text-size:20px">
+            Send Message
+          </button>
+        </form>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- ***** Footer ***** -->
 
@@ -233,37 +332,25 @@
       <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
         <li class="footer__social-link-item">
-          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
+          <a href="https://github.com/PranavKulkarni581/" title="Link to Github Profile">
             <img src="./images/github.svg" class="footer__social-image" alt="Github">
           </a>
         </li>
         <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
+          <a href="https://www.linkedin.com/in/pranav-kulkarni-632465257/" >
             <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
           </a>
+        </li>
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#f9fafb" d="M224.3 141a115 115 0 1 0 -.6 230 115 115 0 1 0 .6-230zm-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1 -.6-149.2zm93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1 -53.6 0zm129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
         </li>
       </ul>
 
       <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
       <p>
-        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+        &copy; 2025 - Designed & Developed by Pranav with ❤️ 
       </p>
-      <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-        </iframe>
-      </div>
+     
     </div>
   </footer>
 
